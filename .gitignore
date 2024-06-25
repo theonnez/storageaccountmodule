@@ -1,0 +1,12 @@
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.backup
+
+# Diretório .terraform
+.terraform/
+
+# Arquivo de Lock
+.terraform.lock.hcl
+
+# Arquivo de variáveis locais (se contiver informações sensíveis)
+terraform.tfvars
